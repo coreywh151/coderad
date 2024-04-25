@@ -110,7 +110,8 @@
 
 .bg-contrast {
   background-color: var(--contrast);
-  padding: var(--size-150 0);
+  padding: var(--size-150)  0;
+  margin: 0 auto;
 }
 
 .service-grid {
@@ -173,4 +174,9 @@ span.bg-color-6 {  background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 
 .video-box > img {
   max-width: 600px;
   border-radius: 8px;
+}
+
+.block-text.priciing-header {
+  text-align: center;
+  padding-right: 0;
 }
