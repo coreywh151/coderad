@@ -327,6 +327,7 @@ span.bg-color-6 {
 footer.bg-footer {background-color: var(--footer);}
 footer .footer-bottom {background-color: var(--footer-base);}
 
+.footer {max-width: 100%;}
 
 footer .footer-top {
   display: grid;
@@ -384,3 +385,21 @@ footer .footer-cal {justify-self: center;}
   font-size: var(--size-10);
 }
 
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-bottom {padding: var(--size-16) 0;}
+
+.copyright p {color: var(--font-color-light);}
+
+.footer-bottom-links ul li {
+  display: inline-block;
+  margin-right:  var(--size-10);
+  color: var(--white);
+}
+
+.footer-bottom-links li a {  color: var(--white);}
