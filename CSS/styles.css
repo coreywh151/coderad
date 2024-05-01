@@ -327,7 +327,6 @@ span.bg-color-6 {
 footer.bg-footer {background-color: var(--footer);}
 footer .footer-bottom {background-color: var(--footer-base);}
 
-.footer {max-width: 100%;}
 
 footer .footer-top {
   display: grid;
@@ -403,3 +402,20 @@ footer .footer-cal {justify-self: center;}
 }
 
 .footer-bottom-links li a {  color: var(--white);}
+
+#scrollUp {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #9ccdfe 0%, #94aafd 100%);
+  color: var(--white);
+  font-size: var(--size-20);
+  height: var(--size-50);
+  width: var(--size-50);
+  line-height: var(--size-50);
+  position: fixed;
+  bottom: var(--size-30);
+  right: var(--size-30);
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 100;
+}
