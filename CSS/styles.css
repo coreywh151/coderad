@@ -41,6 +41,7 @@
 }
 
 .bg-header {
+  padding: var(--size-150) 0;
   background-image: url("../Assests/imag/bg-header-1.jpg");
 }
 .video-demo {
@@ -81,7 +82,7 @@
 }
 
 .why-me {
-  padding: var(--size-150) 0;
+  padding: var(--size-10) 0;
 }
 
 .wht-me-wrapper {
@@ -92,10 +93,11 @@
 .wht-me-wrapper div {
   flex: 1;
 }
-
-.block-text {
-  padding-right: var(--size-50);
+.wht-me-wrapper .block-text{ 
+  padding-right: var(--size-100);
+  max-width: 35rem;
 }
+
 
 .block-text span {
   color: var(--font-color-dark);
@@ -170,6 +172,7 @@ span.bg-color-6 {
 .video-demo .block-text h2,
 .video-demo .block-text p {
   color: var(--white);
+  margin: var(--size-50) 0;
 }
 
 .video-btn {
@@ -213,7 +216,7 @@ span.bg-color-6 {
 .price-card {
   background-color: var(--white);
   border-radius: 8px;
-  padding: var(--size-16);
+  padding: var(--size-40) var(--size-16);
 }
 
 .price-card .checked {
@@ -259,9 +262,8 @@ span.bg-color-6 {
   font-weight: 400px;
 }
 
-.plan-btn-wrapper {
-  text-align: center;
-}
+.plan-btn-wrapper {text-align: center;}
+.plan-btn-wrapper a {width: 100%;}
 
 .testimonials {margin: var(--size-100);}
 
@@ -341,6 +343,7 @@ footer .footer-cal {justify-self: center;}
   color: var(--white);
   font-weight: 500;
   margin-bottom: var(--size-16);
+  font-size: var(--size-16);
 }
 
 .contact-info li {
@@ -360,6 +363,7 @@ footer .footer-cal {justify-self: center;}
 }
 
 .services-wrapper p {color: #858497;}
+.services-wrapper h5 {margin-bottom: initial;}
 
 .recent-posts {
     display: flex;
@@ -376,6 +380,7 @@ footer .footer-cal {justify-self: center;}
 .post-inner h6 a { 
   color: var(--white);
     font-weight: 600;
+    font-size: 0.75rem;
 }
 
 
